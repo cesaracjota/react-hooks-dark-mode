@@ -14,7 +14,7 @@ const Characters = () => {
   }, []);
 
   return (
-    <div className={darkMode? 'container-dark' : 'container-dark'}>
+    <div className={darkMode? 'container-light' : 'container-dark'}>
       {characters.map(character => (
       <div className="card">
         <div className="card-header">
